@@ -1,36 +1,13 @@
-# react-webpack-babel
-Simple React Webpack Babel Starter Kit
+# potwallet
 
-Tired of complicated starters with 200MB of dependencies which are hard to understand and modify?
+** ALPHA ALERT: This software is alpha quality, we won't be liable for lost funds **
 
-Try this is a simple [React](https://facebook.github.io/react/), [Webpack](http://webpack.github.io/) and [Babel](https://babeljs.io/) application with nothing else in it.
+This is a simple client side wallet for PotCoin, it implements a store and order management.
 
-### What's in it?
-
-* Simple src/index.jsx and src/index.css (local module css).
-* Webpack configuration for development (with hot reloading) and production (with minification).
-* CSS module loading, so you can include your css by ```import styles from './path/to.css';```.
-* Both js(x) and css hot loaded during development.
-* [Webpack Dashboard Plugin](https://github.com/FormidableLabs/webpack-dashboard) on dev server.
-
-### To run
-
-* You'll need to have [git](https://git-scm.com/) and [node](https://nodejs.org/en/) installed in your system.
-* Fork and clone the project:
-
-```
-git clone https://github.com/alicoding/react-webpack-babel.git
-```
-
-* Then install the dependencies:
+Based on react-webpack-babel
 
 ```
 npm install
-```
-
-* Run development server:
-
-```
 npm start
 ```
 
@@ -43,18 +20,7 @@ npm run dev
 Open the web browser to `http://localhost:8888/`
 
 ### To test
-To run unit tests:
-
-```
-npm test
-```
-
-Tests come bundled with:
-
-* Jest
-* Enzyme
-* React Test Utils
-* React Test Renderer
+Although the starter used has tests, this wallet still hasn't any test.
 
 ### To build the production package
 
